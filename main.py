@@ -42,7 +42,7 @@ def turn_1():
             elif p1[0] == "A":
                 if sum_1 <= 10:
                     sum_1 += 11
-                else:
+                else: # the sum would be more than 21
                     sum_1 += 1
             table = f"\t \t  Dealer:{sum_d} {dealer} \n \t \t - - - - - - - - - \n " \
                     f"P1:{sum_1} {player1} \t \t P2:{sum_2} {player2}"
